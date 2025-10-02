@@ -1,0 +1,74 @@
+# Power BI Files
+*.pbix.tmp
+*.pbix~
+*.pbit~
+*.rdl.data
+
+# Backup files
+*_backup*
+*.bak
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Power BI Cache
+.pbi/
+*.pbids
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Sensitive data
+*_confidential*
+*_private*
+*_credentials*
+*.env
+.env.local
+config.json
+
+# Large datasets (optional - uncomment if not sharing raw data)
+# data/*.csv
+# data/*.xlsx
+# data/*.parquet
+
+# Logs
+*.log
+logs/
+
+# Documentation drafts
+docs/drafts/
+*.draft.md
